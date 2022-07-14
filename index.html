@@ -1,34 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portfólio web</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #50858B;
+            font-size: 22px;
+        }
+
+        #nome {
+            font-family: 'Merriweather', serif;
+        }
+
+        .minha-foto {
+            border-radius: 5%;
+            width: 230px;
+        }
+
+        #resumo {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        em {
+            font-size: 24px;
+        }
+
+        strong {
+            font-size: 24px;
+        }
+
+        
+        h2 {
+            font-size: 22px;
+        }
+
+        .habilidade-1 {
+            font-size: 20px;
+        }
+
+        .habilidade-2 {
+            font-size: 18px;
+        }
+
+        .habilidade-3 {
+            font-size: 16px;
+        }
+
+    </style>
 </head>
+
 <body>
     <!--Seu nome completo -->
     <h1 id="nome">André Uliano dos Santos Fretta</h1>
     <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
-    <img src="./images/minha_foto.jpg" alt="Uma foto minha à frente de uma escadaria de pedra, usando roupa preta e óculos de grau." id="foto">
+    <img class="minha-foto" src="./images/minha_foto.jpg"
+        alt="Uma foto minha à frente de uma escadaria de pedra, usando roupa preta e óculos de grau." id="foto">
     <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
-    <p id="resumo"> Brasileiro, 29 anos, nascido no município de <em>Tubarão/SC</em>.<strong> Sou formado em direito e estou em transição de carreira.</strong></p>
+    <p id="resumo"> Brasileiro, 29 anos, nascido no município de <em>Tubarão/SC</em>. Sou <strong>formado em Direito </strong> e
+            estou <strong> em transição de carreira.</strong></p>
     <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
-    <h2 id="habilidades">Lista de habilidades que possui:</h2>
+    <h2 id="habilidades">Habilidades que possuo:</h2>
     <ul>
-        <li>Habilidade 1</li>
-        <li>Habilidade 2</li>
-        <li>Habilidade 3</li>
-        <li>Habilidade 4</li>
-        <li>Habilidade 5</li>
+        <li class="habilidade-1">Habilidade 1</li>
+        <li class="habilidade-2">Habilidade 2</li>
+        <li class="habilidade-3">Habilidade 3</li>
     </ul>
     <!-- Um link interno para a sua foto; -->
-    <p><a href="">Minha foto</a></p>
+    <p><a href="#minha-foto">Minha foto</a></p>
     <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
-    <p id="canal"><a href="https://www.youtube.com/c/SpaceTodayTV">Canal Space Today</a></p>
-    
+    <p id="canal"><a href="https://www.youtube.com/c/SpaceTodayTV">Um canal no Youtube que eu curto</a></p>
+
     <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
-    
+
     <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
     <h2>Índice:</h2>
     <ol>
@@ -41,4 +93,5 @@
 
 
 </body>
+
 </html>
